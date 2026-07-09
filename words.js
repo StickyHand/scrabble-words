@@ -108802,3 +108802,4 @@ zymurgy`.toLowerCase().split("\n").filter(function(word) {
     return /^[a-z]+$/.test(word);
 });
 var dictionary = new Set(wordList);
+window.dictionary = dictionary;
